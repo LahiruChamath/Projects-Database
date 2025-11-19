@@ -105,7 +105,7 @@ export default function ProjectDetailsPage(props) {
     return m;
   },[subTasks]);
 
-  // compute main progress from its sub list
+  // compute main progress from its sub
   const mainPct = (mid) => {
     const list = subsByMain.get(String(mid)) || [];
     if(!list.length) return 0;

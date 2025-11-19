@@ -1,0 +1,75 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+
+# Production
+build/
+dist/
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+.cache/
+.parcel-cache/
+
+# Optional npm cache
+.npm/
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Coverage
+coverage/
+.nyc_output/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Test output
+jest-cache/
+test-results/
+
+# Misc
+*.tgz
+*.log.*
+/.pnp*
+
+# Vercel and other deployments
+.vercel/
+.netlify/
+
+# Temporary/OS files
+*.swp
+__pycache__/
